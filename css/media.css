@@ -1,0 +1,221 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+        .c_padding {
+        padding-top: 50px;
+        padding-bottom: 70px;
+        }
+        /*---header start---*/
+        header {
+            padding: 20px 0 ;
+        }
+        .menu ul li a {
+            padding: 10px 0 0 !important;
+            font-size: 20px;
+            text-align: right;
+        }
+        /*feature*/
+        .c_h1 {
+            margin-bottom: 10px;
+            font-size: 25px;
+        }
+        .c_p {
+            font-size: 17px;
+            line-height: 25px;
+        }
+        .f_item {
+            margin-top: 30px;
+        }
+        .f_icon i {
+            margin-top: 0;
+            font-size: 35px;
+        }
+        .f_text {
+            text-align: center;
+        }
+        .f_text h2 {
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+        .f_text p{
+            letter-spacing: 0;
+        }
+        /*--contact--*/
+        .c_form {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .c_input {
+            padding: 10px 10px;
+            height: 35px;
+        }
+        .c_submit {
+            width: 100%;
+            height: 35px;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .c_icon ul li a {
+            margin-right: 20px;
+        }
+        .c_icon ul li a i {
+            font-size: 35px;
+        }
+        /*footer*/
+        footer {
+            padding-bottom: 70px;
+        }
+        .f_2 {
+            margin-top: 40px;
+        }
+        .f_1, .f_2 {
+            text-align: center;
+        }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+        .c_padding {
+        padding-top: 50px;
+        padding-bottom: 70px;
+        }
+        /*---header start---*/
+        .menu ul li a {
+            padding: 10px 0 0 !important;
+            font-size: 20px;
+            text-align: right;
+        }
+        .slider {
+            padding-bottom: 60px;
+        }
+        .c_ind {
+            bottom: -60px;
+        }
+        .carousel-indicators [data-bs-target] {
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+        }
+        .s_text {
+            margin-top: 0;
+        }
+        .s_text h1 {
+            font-size: 25px;
+        }
+        .s_text h2 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+        .s_text p {
+            margin-bottom: 20px;
+        }
+        .s_icon ul li i {
+            margin-right: 15px !important;
+            font-size: 32px;
+        }
+        /*----feature start----*/
+        .f_item {
+            margin-top: 30px;
+        }
+        .f_icon i {
+            margin-top: 0;
+            font-size: 35px;
+        }
+        .f_text {
+            text-align: center;
+        }
+        .f_text h2 {
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+        .f_text p{
+            letter-spacing: 0;
+        }
+        /*--contact--*/
+        .c_form {
+            margin-top: 35px;
+            margin-bottom: 40px;
+        }
+        .c_input {
+            padding: 10px 10px;
+            height: 45px;
+        }
+        .c_submit {
+            width: 100%;
+            height: 45px;
+            font-weight: 700;
+        }
+        .c_icon ul li a {
+            margin-right: 25px;
+        }
+        .c_icon ul li a i {
+            font-size: 40px;
+        }
+        /*footer*/
+        .f_1 {
+            margin-bottom: 40px;
+        }
+        .f_1, .f_2 {
+            text-align: center;
+        }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+        .c_padding {
+        padding-top: 80px;
+        padding-bottom: 100px;
+        }
+        /*---header start---*/
+        .menu ul li a {
+            padding: 10px 0 0 !important;
+            text-align: right;
+        }
+        .s_img {
+            padding-top: 20px;
+            padding-bottom: 50px;
+            width: 90%;
+        }
+        .f_item {
+            margin-top: 50px;
+        }
+        /*--contact--*/
+        .c_form {
+            margin-top: 65px;
+            margin-bottom: 70px;
+        }
+        .c_input {
+            padding: 10px 10px;
+            height: 45px;
+        }
+        .c_submit {
+            width: 100%;
+            height: 45px;
+            font-weight: 700;
+        }
+        /*--footer start--*/
+        footer {
+            padding-bottom: 100px;
+        }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { ... }
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1699.98px) { 
+
+ }
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1700px) and (max-width: 1999.98px) { 
+
+ }
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 2000px) { 
+
+ }

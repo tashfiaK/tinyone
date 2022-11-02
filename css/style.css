@@ -1,0 +1,190 @@
+/*common start*/
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a3a3a3;
+}
+.c_padding {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+/*common end*/
+/*header start*/
+header {
+    padding: 20px 0 ;
+    background-color:  #fcdb00;
+}
+.c_nav {}
+.logo {}
+.menu {}
+.menu ul li a {
+    padding: 0 50px !important;
+    font-size: 22px; 
+    font-weight: 700;
+    color: #010101;
+}
+.menu ul li:last-child a{
+    padding-right: 0 !important;
+}
+.menu ul li a:hover {
+    color: white !important;
+}
+/*header end*/
+/*slider start*/
+.slider {
+    padding-bottom: 100px;
+    background-color:  #fcdb00;
+}
+.c_ind {
+    bottom: -80px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.s_text {
+    margin-top: 50px;
+}
+.s_text h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.s_text h2 {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+}
+.s_text p {
+    margin-bottom: 35px;
+    color: #555555;
+}
+.s_icon {
+    /*margin-bottom: 60px;*/
+}
+.s_icon ul li i {
+    margin-right: 30px !important;
+    color: #010101;
+    font-size: 42px;
+    transition: .33s;
+}
+.s_icon ul li i:hover {
+    transform: scale(.8);
+}
+.s_img {
+    padding-bottom: 50px;
+    width: 70%;
+}
+.s_img img {}
+/*slider enddd*/
+/*feature starttt*/
+.feature {
+}
+.c_title {}
+.c_h1 {
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.c_p {
+    font-size: 20px;
+    color: #313841;
+    line-height: 28px;
+}
+.f_item {
+    margin-top: 70px;
+}
+.f_icon {}
+.f_icon i {
+    margin-top: 2px;
+    font-size: 50px;
+    color: #010101;
+    transition: .33s;
+}
+.f_icon i:hover {
+    transform: scale(.8);
+}
+.f_text {}
+.f_text h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #010101;
+}
+.f_text p {
+    letter-spacing: 1px;
+}
+/*feature endddd*/
+/*--contact start--*/
+.contact,footer {
+    background-color: #010101;
+}
+.yellow {
+    color: #fcdb00;
+}
+.ash {
+    color: #a3a3a3;
+}
+.c_form {
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+.c_input {
+    padding: 15px 20px;
+    height: 55px;
+    font-family: 'PT Sans', sans-serif;
+    color: #a3a3a3;
+}
+.c_submit {
+    width: 100%;
+    height: 55px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #fcdb00;
+    color: #010101;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.c_submit:hover {
+    background-color: #ffffff !important;
+}
+.c_icon {
+}
+.c_icon ul li a {
+    margin-right: 30px;
+    transition: .3s;
+}
+.c_icon ul li a:last-child {
+    margin-right: 0;
+}
+.c_icon ul li a i:hover  {
+    transform: scale(.8) !important;
+}
+.c_icon ul li a i {
+    font-size: 42px;
+    color: #fcdb00;
+}
+/*--contact endddd--*/
+/*footer start*/
+footer {
+    padding-bottom: 120px;
+}
+.f_1 {}
+.f_1 address {
+    color: #ffffff;
+}
+.f_2 {}
+.f_2 p a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: .3s;
+}
+.f_2 p a:hover {
+    color: #fcdb00;
+}
+/*--footer end--*/
